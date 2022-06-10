@@ -15,21 +15,13 @@ npm install
 
 Then start the API server.
 ```
-npm start
+npm run dev
 ```
+Note: Due to structure changes from switching to Typescript and dockerizing, /api/ is currently only stable booting with 'npm run dev' as opposed to 'npm start' as would be normal.
 
 This API server provides two endpoints:
-1. GET /hello
-2. POST /echo
-
-See the following examples on how to access those endpoints.
-```
-curl -s localhost:8080/hello
-{"hello":"world"}
-
-curl -s -H 'Content-Type: application/json' localhost:8080/echo -d '{"test": "123"}' 
-{"body":{"test":"123"}}
-```
+1. GET /supervisors
+2. POST /submit
 
 # Running with docker
 To help ensure consistently correct startup across multiple platforms, you may choose to use Docker to containerize your application.  Installation steps for docker can be found on their main page.
@@ -51,3 +43,5 @@ When you are done testing, stop the server and remove the container.
 ```
 docker rm -f test
 ```
+
+#Note this api was built in conjuction with a /client/. see the root nodes README.md for instructions on how to run this project with Docker.
