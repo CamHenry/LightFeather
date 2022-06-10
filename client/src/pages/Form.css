@@ -1,0 +1,38 @@
+.Form-form {
+  min-width: 300px;
+  width: 600px;
+  margin: auto;
+}
+
+
+.Form-section {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Form-input {
+  width: 250px;
+  height: 5rem;
+}
+
+.Form-contact {
+  width: 250px;
+  height: 5rem;
+}
+
+.Form-span {
+  font-size: smaller;
+}
+
+.Form-select {
+  width: 300px;
+  height: 6rem;
+  margin: auto;
+}
+
+.Form-button {
+  width: 100px;
+  height: 4rem;
+  margin: auto;
+}

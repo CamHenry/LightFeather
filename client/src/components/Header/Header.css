@@ -1,0 +1,24 @@
+.Header-header{
+  background-color: #222234;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Header-title {
+  background-color: #222234;
+  min-height: 5vh;
+  margin-top: 5rem;
+  margin: auto;
+  min-width: 300px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
