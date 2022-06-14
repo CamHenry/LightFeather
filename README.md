@@ -19,3 +19,4 @@ docker-compose up
 This should run 'npm install' for any dependencies the client and api will need. It will then boot up the the api on http://localhost:8080 and the client on http://localhost:3000 using the commands 'npm run dev' and 'npm start' respectively.
 
 Access http://localhost:3000 on your preferred browser to view the client landing page.
+
